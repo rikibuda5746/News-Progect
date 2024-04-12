@@ -2,7 +2,7 @@
 A web application that presents current topics from a news website.
 
 # Link To watch the project:
-https://drive.google.com/file/d/16UhBL3wU56FAmAzRx0Sxa-5VcmuyRipW/view?usp=sharing
+https://drive.google.com/file/d/16UhBL3wU56FAmAzRx0Sxa-5VcmuyRipW/view
 
 # Technological Languages:
 The project write by ASP.Net Core Technologic.
