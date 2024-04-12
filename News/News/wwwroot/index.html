@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>News</title>
+    <link rel="stylesheet" type="text/css" href="./css/site.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include Handlebars library from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars/dist/handlebars.min.js"></script>
+    <script src="./js/site.js"></script>
+    <body>
+        <header>
+            <h1>News</h1>
+            <div style="display:flex">
+                <h3>Topics</h3>
+                <h3>post</h3>
+            </div>
+        </header>
+
+
+        <main>
+            <div id="Titles"></div>
+            <div id="news-container"></div>
+
+            <!-- Handlebars templates -->
+            <script id="titles-template" type="text/x-handlebars-template">
+                <div class="news-title" data-title="{{title}}">{{title}}</div>
+            </script>
+
+            <script id="content-template" type="text/x-handlebars-template">
+                <div>{{title}}</div>
+                <div>{{description}}</div>
+                <a href="{{link}}" target="_blank">לכתבה המלאה</a>
+            </script>
+
+            <main />
+</body>
+</html>

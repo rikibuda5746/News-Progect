@@ -1,0 +1,2 @@
+exception: No such host is known. (kol-barama.co.il:443)
+
